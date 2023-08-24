@@ -1,0 +1,29 @@
+.order-detail-page {
+    margin: 3rem 0;
+}
+
+.order-detail-page table th,
+.order-detail-page table td {
+    width: 20%;
+    text-align: center;
+    padding: 1rem 0;
+    font-style: italic;
+}
+
+.order-detail-page table {
+    border-spacing: 0px;
+    width: 80%;
+    margin-top: 4rem;
+}
+
+.order-detail-list-item td img{
+    width: 100%;
+}
+
+.order-detail-list-item{
+    margin-bottom: 1rem;
+}
+
+.order-detail-page  table thead tr {
+    background-color: #F8F9FA;
+}

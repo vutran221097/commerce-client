@@ -1,0 +1,94 @@
+.shop-container {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.shop-container .empty{
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+
+.shop-container .shop-categories {
+  flex: 1;
+}
+
+.shop-container .shop-category-item {
+  flex: 3;
+}
+
+.shop-categories h2 {
+  background-color: #f6f9f6;
+  padding: 0.5rem 1.5rem;
+}
+
+.shop-categories h2:first-child {
+  margin-top: 0;
+}
+
+.shop-categories p {
+  padding-left: 1.5rem;
+}
+
+.shop-categories-item p:hover {
+  color: #e6c381;
+  cursor: pointer;
+}
+
+.shop-categories-item.active p {
+  color: #e6c381;
+}
+
+.shop-item .product-item {
+  width: 32% !important;
+}
+
+.bg-black h2 {
+  background-color: black;
+}
+
+.bg-black h2 {
+  color: white;
+}
+
+.shop-filter {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.shop-filter input {
+  padding: 0.5rem 1rem;
+  color: grey;
+  width: 40%;
+}
+
+.shop-filter input:focus {
+  outline: none;
+}
+
+.shop-filter select {
+  padding: 0.5rem 1rem;
+  color: grey;
+}
+
+.paging {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+
+.paging p {
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+}
+
+.paging .icon {
+  cursor: pointer;
+}

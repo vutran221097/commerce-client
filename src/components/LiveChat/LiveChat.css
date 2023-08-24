@@ -1,0 +1,127 @@
+.live-chat {
+  z-index: 3;
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1rem;
+  cursor: pointer;
+}
+
+.live-chat-box {
+  z-index: 3;
+  position: fixed;
+  bottom: 15%;
+  right: 5rem;
+  border: 1px solid grey;
+  border-radius: 1rem;
+  width: 35%;
+  background-color: white;
+  box-shadow: 2px 2px 1rem #888888;
+  animation-duration: 500ms;
+  animation-name: slidein;
+}
+
+/* animation for livechatbox */
+@keyframes slidein {
+  from {
+    transition: all 0.5s;
+    transform: scale(0) rotate(500deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+.live-chat img {
+  width: 5rem;
+}
+
+.live-chat-box-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  padding-bottom: 0;
+}
+
+.live-chat-box-header p {
+  background-color: #e4e7ea;
+  padding: 0.5rem;
+  font-size: 10px;
+}
+
+.live-chat-box-body {
+  padding: 0.5rem 6rem 0.5rem 1rem;
+  height: 20rem;
+  overflow-x: auto;
+}
+
+.live-chat-box-body .user-chat p {
+  background-color: #48b0f7;
+  width: fit-content;
+  color: white;
+  margin-bottom: 0;
+}
+
+.user-chat {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.live-chat-box-body p {
+  padding: 0.5rem;
+}
+
+.live-chat-box-footer {
+  padding: 1rem 6rem 1rem 1.5rem;
+  background-color: #f9fafb;
+  border-end-start-radius: 1rem;
+  border-end-end-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.live-chat-box-footer input {
+  border: none;
+  background-color: #f9fafb;
+  padding: 0.5rem;
+  font-size: 16px;
+}
+
+.live-chat-box-footer input:focus {
+  outline: none;
+}
+
+.live-chat-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+}
+
+.live-chat-actions .emoji-container {
+  position: absolute !important;
+  bottom: 2rem;
+  left: -8rem;
+}
+
+.live-chat-actions .send-action {
+  color: #169af8;
+}
+
+.live-chat-icon {
+  cursor: pointer;
+}
+
+.live-chat-box-input {
+  white-space: nowrap;
+}
+
+.live-chat-box-body .noti {
+  text-align: center;
+  background-color: white;
+  color: grey;
+  font-size: 10px;
+}

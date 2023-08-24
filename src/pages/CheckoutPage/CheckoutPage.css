@@ -1,0 +1,89 @@
+.checkout-page {
+  margin-bottom: 3rem;
+}
+
+.billing-user-info div {
+  display: flex;
+  flex-direction: column;
+}
+
+.billing {
+  display: flex;
+}
+
+.billing-user-info {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.billing-user-info label {
+  font-style: italic;
+}
+
+.billing-user-info input {
+  border: 1px solid grey;
+  padding: 0.8rem 0.5rem;
+  font-size: 16px;
+  color: grey;
+}
+
+.billing-user-info input::placeholder {
+  color: grey;
+  font-size: 16px;
+}
+
+.billing-user-info input:focus {
+  outline: none;
+}
+
+.billing-user-info button {
+  padding: 0.5rem 2rem;
+  border: none;
+  outline: none;
+  background-color: #383838;
+  color: white;
+  width: fit-content;
+  font-size: 20px;
+  font-style: italic;
+  cursor: pointer;
+}
+
+.billing-total {
+  flex: 1;
+  padding: 2rem;
+  background-color: #f8f9fa;
+}
+
+.billing-detail-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+}
+
+.billing-detail-item p {
+  white-space: nowrap;
+}
+
+.billing-total-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.billing-user-info select {
+  border: 1px solid grey;
+  padding: 0.8rem 0.5rem;
+  font-size: 16px;
+  color: grey;
+}
+
+.billing-user-info select:focus{
+  outline: none;
+}
+
+.billing-user-info .pr-5{
+  padding-right: 5rem;
+}

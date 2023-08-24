@@ -1,0 +1,18 @@
+[
+  {
+    "title": "APPLE",
+    "item": ["All"]
+  },
+  {
+    "title": "IPHONE & MAC",
+    "item": ["Iphone", "Ipad", "Mac"]
+  },
+  {
+    "title": "WIRELESS",
+    "item": ["Airpods", "Watch"]
+  },
+  {
+    "title": "OTHER",
+    "item": ["Mouse", "Keyboard", "Other"]
+  }
+]

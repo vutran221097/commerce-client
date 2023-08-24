@@ -1,0 +1,59 @@
+.history-page {
+    margin: 3rem 0;
+}
+
+.order-list-item .w-15 {
+    width: 15%;
+}
+
+.order-list-item .w-10 {
+    width: 10%;
+}
+
+.order-list-item .w-5 {
+    width: 5%;
+}
+
+.history-page table {
+    border-spacing: 0px;
+    width: 100%;
+}
+
+.history-page table th,
+.history-page table td {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.history-page table thead tr {
+    background-color: #F8F9FA;
+}
+
+.history-page table th {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.history-page table td {
+    color: grey;
+    font-style: italic;
+}
+
+.order-list-item .action {
+    cursor: pointer;
+    padding: 0 !important;
+}
+
+.order-list-item .action p {
+    color: black;
+    border: 1px solid black;
+    padding: 0.4rem 0;
+}
+
+.order-list-item .action p:hover {
+    color: #e6c381;
+}
+
+.text-center{
+    text-align: center;
+}

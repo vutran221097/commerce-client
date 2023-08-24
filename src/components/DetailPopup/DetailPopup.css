@@ -1,0 +1,56 @@
+.modal-item {
+  display: flex;
+  overflow: none;
+  padding: 2rem 2rem;
+}
+
+.modal-image,
+.modal-content {
+  flex: 1;
+}
+
+.modal-content {
+  padding: 1rem;
+}
+
+.modal-image img {
+  width: 100%;
+}
+
+.modal-close-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modal-close-btn button {
+  cursor: pointer;
+}
+
+.modal-content button {
+  border: none;
+  background-color: white;
+}
+
+.modal-info {
+  font-style: italic;
+}
+
+.modal-info .description {
+  color: grey;
+}
+
+.modal-info button {
+  background-color: #383838;
+  color: white;
+  padding: 0.5rem 2rem;
+  font-style: italic;
+  cursor: pointer;
+}
+
+.modal-info button:hover {
+  opacity: 0.8;
+}
+
+.modal-info .icon {
+  color: white;
+}

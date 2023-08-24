@@ -1,0 +1,65 @@
+.login-page {
+  background-image: url("../../assets/banner.png");
+  padding: 4rem 0;
+}
+
+.login-modal {
+  width: 45%;
+  margin: auto;
+  border: 2px solid white;
+  background-color: white;
+  padding: 3rem;
+  height: fit-content;
+}
+
+.login-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-modal h1 {
+  text-align: center;
+  margin-bottom: 5rem;
+  font-weight: 400;
+}
+
+.login-input input:focus {
+  outline: none;
+}
+
+.login-input input {
+  padding: 1.5rem 3rem;
+  font-size: 20px;
+  border: 1px solid grey;
+  border-bottom: none;
+}
+
+.login-input input:last-child {
+  border-bottom: 1px solid grey;
+}
+
+.login-modal button {
+  padding: 1rem 0;
+  border: none;
+  outline: none;
+  background-color: #383838;
+  color: white;
+  width: 100%;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 3rem 0;
+}
+
+.login-actions p {
+  color: grey;
+  text-align: center;
+}
+
+.login-actions p span {
+  color: lightskyblue;
+  cursor: pointer;
+}
+
+.login-actions p span:hover {
+  color: #8f94db;
+}

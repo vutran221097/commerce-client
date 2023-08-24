@@ -1,0 +1,132 @@
+.shopping-cart {
+  display: flex;
+  gap: 2rem;
+}
+
+.shopping-cart-list {
+  flex: 3;
+}
+
+.shopping-cart-total {
+  flex: 1;
+}
+
+.shopping-cart-list-header,
+.shopping-cart-list-actions {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f8f9fa;
+}
+
+.shopping-cart-list-actions {
+  padding: 0 2rem;
+}
+
+.shopping-cart-list-actions p {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0;
+}
+
+.shopping-cart-list-actions p:hover {
+  border: 1px solid black;
+}
+
+.shopping-cart-list-header h4 {
+  flex: 1;
+  text-align: center;
+}
+
+.shopping-cart-total {
+  background-color: #f8f9fa;
+  padding: 2.5rem;
+}
+
+.shopping-cart-total .subtotal,
+.shopping-cart-total .total {
+  display: flex;
+  justify-content: space-between;
+}
+
+.shopping-cart-total .coupon {
+  display: flex;
+  flex-direction: column;
+}
+
+.shopping-cart-total .coupon input:focus {
+  outline: none;
+}
+
+.shopping-cart-total .coupon input {
+  padding: 0.5rem 1rem;
+  border: 1px solid grey;
+  border-bottom: none;
+}
+
+.shopping-cart-total .coupon button {
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+  background-color: #383838;
+  color: white;
+  font-style: italic;
+  cursor: pointer;
+}
+.shopping-cart-total .coupon .coupon-icon {
+  color: white;
+}
+
+.shopping-cart-list-items h2 {
+  text-align: center;
+}
+
+.list-cart {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.cart-item {
+  flex: 1;
+  text-align: center;
+}
+
+.cart-item img {
+  width: 100%;
+}
+
+.cart-item button {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.cart-item .delete-icon {
+  color: grey;
+}
+
+.cart-item .delete-icon:hover {
+  color: black;
+}
+
+.cart-item.quantity {
+  display: flex;
+  justify-content: center;
+}
+
+.cart-item.quantity input {
+  border: none;
+  width: 2rem;
+  text-align: center;
+}
+
+.cart-item.quantity input:focus {
+  outline: none;
+}
+
+.cart-item.quantity input::-webkit-outer-spin-button,
+.cart-item.quantity input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}

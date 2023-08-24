@@ -1,0 +1,54 @@
+.contact {
+  margin-bottom: 3rem;
+}
+
+.contact-services {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #f8f9fa;
+  padding: 1.5rem 0;
+}
+
+.contact-services h2 {
+  font-weight: 400;
+}
+
+.contact-address {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.contact-address div {
+  flex: 1;
+}
+
+.contact-address h1 {
+  font-weight: 400;
+}
+
+.contact-address input {
+  padding: 1rem;
+  width: 40%;
+  border-right: none;
+  border: 1px solid grey;
+}
+
+.contact-address input:focus{
+  outline: none;
+}
+
+.contact-address div:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contact-address button {
+  padding: 0.5rem 2rem;
+  border: none;
+  outline: none;
+  background-color: #383838;
+  color: white;
+  font-style: italic;
+}

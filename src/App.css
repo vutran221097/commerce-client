@@ -1,0 +1,30 @@
+.App {
+  position: relative;
+}
+
+.container {
+  padding: 0 8rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.container h1,
+.container h2,
+.container h3,
+.container h4,
+.container h5,
+.container h6,
+.container p {
+  font-style: italic;
+}
+
+.container p {
+  color: grey;
+}
+
+.horizon-line {
+  border: 1px solid grey;
+  opacity: 0.3;
+}
