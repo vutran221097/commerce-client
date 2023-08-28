@@ -59,7 +59,7 @@ const CheckoutPage = () => {
         if (res.status === 200) {
           toastNoti("Place order success", "success")
           dispatch(resetCart())
-          navigate("/history")
+          navigate(`/history/${currentUser.id}`)
         }
       }
     } catch (e) {
