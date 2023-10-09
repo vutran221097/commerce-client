@@ -15,7 +15,7 @@ Technologies used: MongoDB, Express, ReactJS, NodeJS, React Router, Redux toolki
 - Back-end (Render) : [Link](https://commerce-server-9797.onrender.com/)
 
 - Client Account: `acoount: user1@gmail.com` , `password: 123456`
-- Counselor Account: `acoount: 	conselor1@gmail.com` , `password: 123456`
+- Counselor Account: `acoount: conselor1@gmail.com` , `password: 123456`
 - Admin Account: `acoount: admin@gmail.com` , `password: 123456`
 
 ## Project Breakdown
